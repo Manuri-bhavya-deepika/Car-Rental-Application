@@ -1,0 +1,27 @@
+#manual{
+    background-color:#ffeecc;
+    float: left;
+    height: 390px;
+    width: 500px;
+    margin-left: 40px;
+    margin-top: 30px;
+    border-radius: 20px;
+  }
+  .col-md-6{
+    background-color: #ffeecc;
+    height: 100px;
+    width: 800px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  #man2{
+    padding-top: 30px;
+    color: red;
+  }
+  #example{
+    height: 300px;
+    width: 400px;
+  }
+  #man1{
+    color: red;
+  }

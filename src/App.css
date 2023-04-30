@@ -1,0 +1,222 @@
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #ffd480;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  float: left;
+}
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 6px;
+  text-decoration: none;
+  text-align: center;
+  font-family: fantasy;
+}
+
+/* Active/current link */
+/* .sidebar a.active {
+  background-color: black;
+  color: white;
+} */
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  background-color:black;
+  color: white;
+  border-radius: 10px;
+  box-shadow: #fff;
+}
+
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 576px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 767px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+#col1{
+  background-color:#ffeecc;
+  float: left;
+  height: 220px;
+  width: 300px;
+  margin-left: 40px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+#active {
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  font-family: fantasy;
+  text-align: center;
+} 
+#ava{
+  display: block;
+  color: black;
+  padding: 6px;
+  text-decoration: none;
+  text-align: center;
+  font-family: fantasy;
+}
+#ex{
+  height: 150px;
+  width: 250px;
+  padding-top:10px;
+  border-radius: 10px;
+}
+figcaption{
+  font-size: 30px;
+  font-family: fantasy;
+}
+#container{
+  background-color: #ffdd99;
+  height: 1250px;
+  width: 1250px;
+}
+#sem{
+  background-color: white;
+  height: 120px;
+  position: relative;
+  top: 30px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+#sem1{
+  height: 120px;
+  position: relative;
+  top: 35px;
+  margin-left: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+#sem2{
+  background-color: white;
+  height: 100px;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+#sem3
+{
+  background-color: white;
+  height: 300px;
+  margin-left: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+#example{
+  height: 290px;
+  width: 500px;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+td{
+  font-family: fantasy;
+  padding-top: 40px;
+  font-size: large;
+}
+/* .butt{
+  
+  background-color: white;
+}
+#butt1{
+  height: 60px;
+  width:200px;
+  margin-left: 20px;
+  border: #ccc;
+  box-shadow: 1px 1px 1px 1px white;
+  border-radius: 20px;
+  font-family: fantasy;
+  color: white;
+  background-color: white;
+}
+#butt1:hover{
+  background-color: black;
+  
+} */
+/* #demo{
+  text-decoration: none;
+}
+#demo1:hover{
+  background-color: black;
+  color: white
+} */
+#rental{
+  text-align: center;
+  margin-top: 40px;
+}
+#rental1{
+  padding-top: 30px;
+}
+.section {
+	position: relative;
+	height: 100vh;
+}
+
+.section .section-center {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+h1{
+  font-family: fantasy;
+  text-align: center;
+}
+.asas{
+  text-decoration: none;
+  color: black;
+}
+.bsbs{
+  background-color: white;
+  height: 50px;
+  width: 180px;
+  margin-left: 20px;
+  border: white;
+  border-radius: 10px;
+}
+.bsbs:hover{
+  background-color: black;
+}
+.asas:hover{
+  color: white;
+}
+.cscs{
+  margin-top: 30px;
+  text-align: center;
+}
+#alexa{
+  margin-top: 10px;
+  font-family: fantasy;
+}
